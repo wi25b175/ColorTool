@@ -3,7 +3,7 @@ package at.fhtw;
 public class RgbService {
 
     public String getRgbValue(String color) {
-        return switch (color) {
+    return switch (color.trim().toLowerCase(java.util.Locale.ROOT)) {            
             case "red" -> "RGB(255,0,0)";
             case "green" -> "RGB(0,255,0)";
             case "blue" -> "RGB(0,0,255)";
