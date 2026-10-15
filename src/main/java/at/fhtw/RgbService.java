@@ -9,7 +9,7 @@ public class RgbService {
             case "blue" -> "RGB(0,0,255)";
             case "purple" -> "RGB(128,0,128)";
             case "yellow" -> "RGB(255,255,0)";
-            case "orange" -> "RGB(225,165,0)";
+            case "orange" -> "RGB(255,165,0)";
             default -> "Unknown color";
         };
     }
